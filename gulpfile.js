@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // including plugins
 var gulp = require('gulp')
 var minifyCSS = require('gulp-minify-css')
@@ -123,7 +122,6 @@ gulp.task('js', ['js-vendor', 'js-app', 'js-page-dashboard', 'js-page-home'], fu
 
 gulp.task('prod', ['style', 'js'], function(){})
 gulp.task('default', ['style', 'js'], function(){})
-=======
 // including plugins
 var gulp = require('gulp')
 var minifyCSS = require('gulp-minify-css')
@@ -248,4 +246,3 @@ gulp.task('js', ['js-vendor', 'js-app', 'js-page-dashboard', 'js-page-home'], fu
 
 gulp.task('prod', ['style', 'js'], function(){})
 gulp.task('default', ['style', 'js'], function(){})
->>>>>>> f6b72304d10bc59fc144dffcd686070c7065d36d
